@@ -1,0 +1,22 @@
+create database survey;
+
+create table users(
+    id int() auto_increment primary key,
+    email varchar(255) not null
+);
+
+create table results(
+    id int() auto_increment primary key,
+    Q1 int() not null,
+    Q2 int() not null,
+    Q3 int() not null,
+    Q4 int() not null,
+    Q5 int() not null,
+    Q6 int() not null,
+    Q7 int() not null,
+    Q8 int() not null,
+    Q9 int() not null,
+    Q10 int() not null,
+    foreign key (user_id) references users(id)
+);
+
