@@ -1,5 +1,24 @@
-* {
-	font-weight: bold;
-	color: purple;
+body {
+	text-align: center;
+	background-image: url(../Resources/texture.jpg);
+	background-size: 100%;	
 }
+
+
+#image {
+	display: block;
+	width: 50%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container {
+	background-color: white;
+	width: 70%;
+	height: 40%;
+	border-radius: 4px;
+	padding-top: 200px;
+}
+
 
