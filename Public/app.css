@@ -14,11 +14,34 @@ body {
 }
 
 .container {
-	background-color: white;
+	background-color: #9ED9EB;
 	width: 70%;
-	height: 40%;
-	border-radius: 4px;
-	padding-top: 200px;
+	/*border-radius: 4px;*/
+	border-radius: 100px;
+	padding: 120px 40px;
+	margin: auto;
+}
+
+
+.greeting {
+	position: relative;
+	bottom: 3em;
+}
+
+.email {
+	bottom: 5em;
+}
+
+.email input {	
+	margin: 0;
+	border: 1px solid #eee;
+	border-left: 3px solid;
+	border-radius: 5px;
+	transition: border-color .5s ease-out;
+	border-left-color: blue;
+	width: 80%;
+	padding: 12px;
+	font-size: 18px;
 }
 
 
